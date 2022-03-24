@@ -1,7 +1,7 @@
 
 /*body*/
 import {assert,expect,test} from 'vitest'/*$path$*/;
-import {answer} from './app'/*$path$*/;
+import {answer} from './client'/*$path$*/;
 
 test('Math.sqrt()',function() {
 	

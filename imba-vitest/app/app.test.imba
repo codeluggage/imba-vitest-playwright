@@ -1,5 +1,5 @@
 import { assert, expect, test } from 'vitest'
-import { answer } from './app'
+import { answer } from './client'
 
 test('Math.sqrt()', do
 	expect(Math.sqrt(4)).toBe(2)
