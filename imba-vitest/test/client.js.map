@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "client.js",
+  "sourceRoot": "",
+  "sources": [
+    "/Users/mf/open-source/imba-vitest/imba-vitest/app/client.imba"
+  ],
+  "sourcesContent": [
+    "def answer(input\\number)\n\treturn true if input === 42\n\treturn true if input === -42\n\tfalse\n\nglobal css html\n\tff:sans\n\ntag app\n\t<self>\n\t\t<header>\n\t\t\t<svg[w:200px h:auto] src='./logo.svg'>\n\t\t\t<p> \"Edit {<code> \"app/client.imba\"} and save to reload\"\n\t\t\t<a href=\"https://imba.io\"> \"Learn Imba\"\n\nimba.mount <app>\n\nexport {\n\tanswer\n}\n"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;QAAiB,MAAM;;AAAvB,QAAG,CAAC,MAAM,CAAC,KAAK,CAAQ;;CACX,EAAE,EAAC,KAAK,CAAC,GAAG,CAAC,EAAE,EAA3B,EAAA,MAAM,CAAC,IAAI,EAAA;CACC,EAAE,EAAC,KAAK,CAAC,GAAG,CAAC,GAAG,EAA5B,EAAA,MAAM,CAAC,IAAI,EAAA;CACX,OAAA,KAAK;CAAA;;AAKN,KAAG,CAAC,YAAG,yBAAA;;SARP;;;;;YAUG,4CAAM;YACL,sDAAG;SAAiB,iBAAgB;;gCACpC,uCAAC;;aAAU,sCAAM,iBAAiB,CAAnB;;;;aACf,kCAA0B,YAAY,CAArC;SAAC,QAAI,CAAC,iBAAiB;;;;;EAb5B;AAa0C,wCAAA;;AAE1C,UAAU,0DAAE,0CAAG;;;;KAAL;;AAEV,MAAM,EACL,MAAM;AAEP;;;;;;;;;"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "imba-vitest",
+  "scripts": {
+    "start": "imba -w server.imba",
+    "watch-tests": "imbac -w -m app/*.imba -o test/",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.204",
+    "vitest": "^0.7.10"
+  },
+  "repository": "codeluggage/imba-vitest",
+  "description": "Imba with Vitest",
+  "version": "0.0.1",
+  "homepage": "https://github.com/codeluggage/imba-vitest",
+  "author": "Matias Forbord (https://github.com/codeluggage)",
+  "license": "MIT"
+}

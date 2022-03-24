@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "app.test.js",
+  "sourceRoot": "",
+  "sources": [
+    "/Users/mf/open-source/imba-vitest/imba-vitest/app/app.test.imba"
+  ],
+  "sourcesContent": [
+    "import { assert, expect, test } from 'vitest'\nimport { answer } from './app'\n\ntest('Math.sqrt()', do\n\texpect(Math.sqrt(4)).toBe(2)\n\texpect(Math.sqrt(144)).toBe(12)\n\texpect(Math.sqrt(2)).toBe(Math.SQRT2)\n)\n\ntest('JSON', do\n\t# const input = {\n\t# \tfoo: 'hello',\n\t# \tbar: 'world2',\n\t# }\n\tconst input =\n\t\tfoo: 'hello'\n\t\tbar: 'world'\n\n\tconst output = JSON.stringify(input)\n\n\texpect(output).eq('{\"foo\":\"hello\",\"bar\":\"world\"}')\n\tassert.deepEqual(JSON.parse(output), input, 'matches original')\n)\n\ntest('answer', do\n\texpect(answer(42)).toBe(true)\n\texpect(answer(-42)).toBe(true)\n\texpect(answer(0)).toBe(false)\n\texpect(answer(undefined)).toBe(false)\n\texpect(answer(null)).toBe(false)\n)"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,MAAM,EAAG,MAAM,CAAE,MAAM,CAAE,IAAI,OAAQ,kBAAQ;AAC7C,MAAM,EAAG,MAAM,OAAQ,iBAAO;;AAE9B,IAAI,CAAC,aAAa,CAAE,QAAE,GAAA;;CACrB,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC;CAC5B,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,IAAI,CAAC,EAAE,CAAC;CAC/B,OAAA,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,KAAK,CAAC;CAAA,CACrC;;AAED,IAAI,CAAC,MAAM,CAAE,QAAE,GAAA;;;;;;CAKR,MAAA,KAAK;EACV,GAAG,EAAE,OAAO;EACZ,GAAG,EAAE,OAAO;EAFF;;CAIL,MAAA,MAAM,GAAG,IAAI,CAAC,SAAS,CAAC,KAAK,CAAC;;CAEpC,MAAM,CAAC,MAAM,CAAC,CAAC,EAAE,CAAC,+BAA+B,CAAC;CAClD,OAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,KAAK,CAAC,MAAM,CAAC,CAAE,KAAK,CAAE,kBAAkB,CAAC;CAAA,CAC/D;;AAED,IAAI,CAAC,QAAQ,CAAE,QAAE,GAAA;;CAChB,MAAM,CAAC,MAAM,CAAC,EAAE,CAAC,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC;CAC7B,MAAM,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC;CAC9B,MAAM,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,KAAK,CAAC;CAC7B,MAAM,CAAC,MAAM,CAAC,SAAS,CAAC,CAAC,CAAC,IAAI,CAAC,KAAK,CAAC;CACrC,OAAA,MAAM,CAAC,MAAM,CAAC,IAAI,CAAC,CAAC,CAAC,IAAI,CAAC,KAAK,CAAC;CAAA,CAChC;AAAA;"
+}
