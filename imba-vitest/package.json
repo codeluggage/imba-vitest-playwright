@@ -2,7 +2,7 @@
   "name": "imba-vitest",
   "scripts": {
     "start": "imba -w server.imba",
-    "watch-tests": "imbac -w -m app/*.imba -o test/",
+    "watch-tests": "imba build -w app/*.imba -o test/",
     "test": "vitest"
   },
   "dependencies": {

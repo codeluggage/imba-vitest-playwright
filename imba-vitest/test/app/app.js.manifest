@@ -1,0 +1,45 @@
+{"$$0$$":{
+  "bytes": 888,
+  "imports": [],
+  "_": "input",
+  "path": "app/app.imba",
+  "js": "$$1$$"
+},
+"$$1$$":{
+  "imports": [],
+  "exports": [],
+  "entryPoint": "app/app.imba",
+  "inputs": [
+    [
+      "$$0$$",
+      74
+    ]
+  ],
+  "bytes": 669,
+  "source": "$$0$$",
+  "_": "output",
+  "path": "app/app.js",
+  "type": "js",
+  "dependencies": [],
+  "hash": "YUCET1JJ",
+  "originalPath": "app/app.__dist__.js"
+},
+
+  "inputs": {
+    "app/app.imba": "$$0$$"
+  },
+  "outputs": {
+    "app/app.js": "$$1$$"
+  },
+  "urls": {},
+  "mappings": {},
+  "hash": "VKAHIMNO",
+  "srcdir": "../..",
+  "outdir": "..",
+  "path": "app/app.js.manifest",
+  "main": "$$1$$",
+  "assets": [
+    "$$1$$"
+  ],
+  "css": null
+}
