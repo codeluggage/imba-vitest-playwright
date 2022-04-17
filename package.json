@@ -1,0 +1,27 @@
+{
+    "name": "imbutter-audio",
+    "scripts": {
+        "start": "imba -w app/server/index.imba",
+        "build:unit": "imbac app -o _dist_esm",
+        "build:unit-watch": "imbac -w app -o _dist_esm",
+        "test": "npm run build:unit && npm run test:unit-once && npm run test:e2e",
+        "test:unit": "npm run build:unit && vitest",
+        "test:unit-once": "npm run build:unit && vitest --run",
+        "test:e2e": "playwright test",
+        "test:e2e-start": "PORT=3002 imba --base.target chrome88 app/server/index.imba",
+        "test:e2e-codegen": "npx playwright codegen localhost:3000"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "imba": "^2.0.0-alpha.207"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.21.0",
+        "vitest": "^0.9.3"
+    },
+    "repository": "codeluggage/imbutter-audio",
+    "description": "Native audio player with an easy web interface",
+    "version": "0.0.1",
+    "homepage": "https://github.com/codeluggage/imbutter-audio",
+    "author": "Matias Forbord (https://github.com/codeluggage)"
+}

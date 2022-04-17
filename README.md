@@ -1,5 +1,8 @@
-# Imba-Vitest
+# Imba with Vitest and Playwright
 
-_NOTE: Does not work yet :)_
+## Setup
 
-Experimental exploration of [Vitest](http://github.com/vitest-dev/vitest) in [Imba](http://github.com/imba/imba).
+`npm i`
+`npx playwright install` (you may not need all of these browsers)
+`npm test`
+`npm start`
